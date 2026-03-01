@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "aethervault:cloud_peaks",
+    "aethervault:floating_islands",
+    "aethervault:aether_highlands"
+  ],
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "minecraft:village/plains/town_centers",
+  "size": 1,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {"absolute": 800},
+    "max_inclusive": {"absolute": 1200}
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false,
+  "spawn_overrides": {}
+}
