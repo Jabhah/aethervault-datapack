@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "AetherVault — 4x Height Custom Dimension",
+    "pack_format": 61,
+    "supported_formats": {
+      "min_inclusive": 57,
+      "max_inclusive": 61
+    }
+  }
+}

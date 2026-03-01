@@ -1,0 +1,25 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.7,
+  "downfall": 0.8,
+  "effects": {
+    "sky_color": 986895,
+    "fog_color": 2632735,
+    "water_color": 4293444,
+    "water_fog_color": 2694973,
+    "grass_color": 4395316,
+    "foliage_color": 3341382
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [],
+  "features": [[], [], [], [], [], [], [], [], [], [], []]
+}
