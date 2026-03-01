@@ -1,0 +1,40 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.6,
+  "downfall": 0.7,
+  "effects": {
+    "water_color": 8900331,
+    "water_fog_color": 329011,
+    "fog_color": 12638463,
+    "sky_color": 8233727,
+    "grass_color": 8769654,
+    "foliage_color": 10532610
+  },
+  "carvers": {},
+  "features": [
+    [], [], [], [], [], [],
+    ["aethervault:ore_aethervault_iron", "aethervault:ore_aethervault_coal"],
+    [], [],
+    ["aethervault:cloud_vegetation"],
+    [], []
+  ],
+  "spawners": {
+    "monster": [
+      {"type": "minecraft:phantom", "weight": 5, "minCount": 1, "maxCount": 2},
+      {"type": "minecraft:skeleton", "weight": 10, "minCount": 1, "maxCount": 3}
+    ],
+    "creature": [
+      {"type": "minecraft:parrot", "weight": 40, "minCount": 1, "maxCount": 2},
+      {"type": "minecraft:rabbit", "weight": 10, "minCount": 2, "maxCount": 4}
+    ],
+    "ambient": [
+      {"type": "minecraft:bat", "weight": 10, "minCount": 4, "maxCount": 8}
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "underground_water_creature": [],
+    "axolotls": [],
+    "misc": []
+  },
+  "spawn_costs": {}
+}

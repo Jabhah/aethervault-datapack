@@ -1,0 +1,32 @@
+{
+  "has_precipitation": false,
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "effects": {
+    "water_color": 16744448,
+    "water_fog_color": 329011,
+    "fog_color": 7254527,
+    "sky_color": 7254527,
+    "ambient_sound": "minecraft:ambient.cave"
+  },
+  "carvers": {},
+  "features": [
+    [], [], [], [], [], [],
+    ["aethervault:ore_aethervault_gold", "aethervault:ore_aethervault_redstone"],
+    [], [], [], [], []
+  ],
+  "spawners": {
+    "monster": [
+      {"type": "minecraft:magma_cube", "weight": 15, "minCount": 2, "maxCount": 5},
+      {"type": "minecraft:blaze", "weight": 5, "minCount": 1, "maxCount": 3}
+    ],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "underground_water_creature": [],
+    "axolotls": [],
+    "misc": []
+  },
+  "spawn_costs": {}
+}

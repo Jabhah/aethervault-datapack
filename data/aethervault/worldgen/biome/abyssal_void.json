@@ -1,0 +1,32 @@
+{
+  "has_precipitation": false,
+  "temperature": -1.0,
+  "downfall": 0.0,
+  "effects": {
+    "water_color": 1644825,
+    "water_fog_color": 329011,
+    "fog_color": 657930,
+    "sky_color": 657930,
+    "ambient_sound": "minecraft:ambient.cave"
+  },
+  "carvers": {},
+  "features": [
+    [], [], [], [], [], [],
+    ["aethervault:ore_aethervault_diamond", "aethervault:ore_aethervault_emerald"],
+    [], [], [], [], []
+  ],
+  "spawners": {
+    "monster": [
+      {"type": "minecraft:warden", "weight": 1, "minCount": 1, "maxCount": 1},
+      {"type": "minecraft:enderman", "weight": 10, "minCount": 1, "maxCount": 3}
+    ],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "underground_water_creature": [],
+    "axolotls": [],
+    "misc": []
+  },
+  "spawn_costs": {}
+}

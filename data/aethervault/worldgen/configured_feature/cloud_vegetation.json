@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "tries": 64,
+    "xspread": 6,
+    "yspread": 3,
+    "zspread": 6,
+    "feature_size": 2,
+    "to_place": {
+      "type": "minecraft:simple_state_provider",
+      "state": {"Name": "minecraft:white_tulip"}
+    }
+  }
+}

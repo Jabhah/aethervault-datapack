@@ -1,0 +1,31 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.0,
+  "downfall": 0.0,
+  "effects": {
+    "water_color": 11184810,
+    "water_fog_color": 329011,
+    "fog_color": 12638463,
+    "sky_color": 8233727
+  },
+  "carvers": {},
+  "features": [
+    [], [], [], [], [], [], [], [], [],
+    ["aethervault:crystal_cluster"],
+    [], []
+  ],
+  "spawners": {
+    "monster": [
+      {"type": "minecraft:enderman", "weight": 10, "minCount": 1, "maxCount": 3},
+      {"type": "minecraft:vex", "weight": 5, "minCount": 1, "maxCount": 2}
+    ],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "underground_water_creature": [],
+    "axolotls": [],
+    "misc": []
+  },
+  "spawn_costs": {}
+}
