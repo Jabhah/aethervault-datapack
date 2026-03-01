@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": {
+          "type": "minecraft:huge_red_mushroom",
+          "config": {
+            "cap_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {"Name": "minecraft:red_mushroom_block", "Properties": {"down": "true", "east": "true", "north": "true", "south": "true", "up": "true", "west": "true"}}
+            },
+            "stem_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {"Name": "minecraft:mushroom_stem", "Properties": {"down": "true", "east": "true", "north": "true", "south": "true", "up": "true", "west": "true"}}
+            },
+            "foliage_radius": 4
+          }
+        }
+      }
+    ],
+    "default": {
+      "type": "minecraft:huge_brown_mushroom",
+      "config": {
+        "cap_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {"Name": "minecraft:brown_mushroom_block", "Properties": {"down": "true", "east": "true", "north": "true", "south": "true", "up": "true", "west": "true"}}
+        },
+        "stem_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {"Name": "minecraft:mushroom_stem", "Properties": {"down": "true", "east": "true", "north": "true", "south": "true", "up": "true", "west": "true"}}
+        },
+        "foliage_radius": 4
+      }
+    }
+  }
+}

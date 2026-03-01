@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "id": "aethervault",
+    "description": [
+      {"text": "AetherVault", "color": "light_purple", "bold": true},
+      {"text": "\n4x Height Custom Dimension", "color": "gray"}
+    ],
+    "pack_format": 61,
+    "supported_formats": {
+      "min_inclusive": 57,
+      "max_inclusive": 61
+    }
+  }
+}

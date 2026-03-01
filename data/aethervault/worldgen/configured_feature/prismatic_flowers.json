@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "tries": 96,
+    "xspread": 7,
+    "yspread": 3,
+    "zspread": 7,
+    "feature_size": 2,
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {"weight": 2, "data": {"type": "minecraft:simple_state_provider", "state": {"Name": "minecraft:allium"}}},
+        {"weight": 2, "data": {"type": "minecraft:simple_state_provider", "state": {"Name": "minecraft:blue_orchid"}}},
+        {"weight": 2, "data": {"type": "minecraft:simple_state_provider", "state": {"Name": "minecraft:azure_bluet"}}},
+        {"weight": 2, "data": {"type": "minecraft:simple_state_provider", "state": {"Name": "minecraft:oxeye_daisy"}}},
+        {"weight": 1, "data": {"type": "minecraft:simple_state_provider", "state": {"Name": "minecraft:cornflower"}}}
+      ]
+    }
+  }
+}

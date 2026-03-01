@@ -1,0 +1,35 @@
+{
+  "has_precipitation": false,
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "effects": {
+    "water_color": 7368816,
+    "water_fog_color": 329011,
+    "fog_color": 12638463,
+    "sky_color": 7254527,
+    "grass_color": 8421504,
+    "foliage_color": 8421504
+  },
+  "carvers": {
+    "air": ["minecraft:cave"]
+  },
+  "features": [
+    [], [], [], [], [], [],
+    ["aethervault:ore_aethervault_coal", "aethervault:ore_aethervault_gold"],
+    [], [], [], [], []
+  ],
+  "spawners": {
+    "monster": [
+      {"type": "minecraft:husk", "weight": 15, "minCount": 2, "maxCount": 5},
+      {"type": "minecraft:blaze", "weight": 5, "minCount": 1, "maxCount": 2}
+    ],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "underground_water_creature": [],
+    "axolotls": [],
+    "misc": []
+  },
+  "spawn_costs": {}
+}

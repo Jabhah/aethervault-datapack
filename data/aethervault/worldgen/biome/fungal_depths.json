@@ -1,0 +1,38 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.7,
+  "downfall": 0.9,
+  "effects": {
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "fog_color": 2702162,
+    "sky_color": 7254527,
+    "grass_color": 7689516,
+    "foliage_color": 5765476,
+    "ambient_sound": "minecraft:ambient.cave"
+  },
+  "carvers": {},
+  "features": [
+    [], [], [], [], [], [],
+    ["aethervault:ore_aethervault_coal", "aethervault:ore_aethervault_iron"],
+    [], [],
+    ["aethervault:giant_mushroom_patch"],
+    [], []
+  ],
+  "spawners": {
+    "monster": [
+      {"type": "minecraft:zombie", "weight": 10, "minCount": 2, "maxCount": 4},
+      {"type": "minecraft:witch", "weight": 5, "minCount": 1, "maxCount": 2}
+    ],
+    "creature": [
+      {"type": "minecraft:mooshroom", "weight": 8, "minCount": 1, "maxCount": 3}
+    ],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "underground_water_creature": [],
+    "axolotls": [],
+    "misc": []
+  },
+  "spawn_costs": {}
+}

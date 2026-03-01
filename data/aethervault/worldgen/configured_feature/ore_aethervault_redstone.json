@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0.5,
+    "targets": [
+      {
+        "target": {"type": "minecraft:tag", "tag": "minecraft:stone_ore_replaceables"},
+        "state": {"Name": "minecraft:redstone_ore"}
+      },
+      {
+        "target": {"type": "minecraft:tag", "tag": "minecraft:deepslate_ore_replaceables"},
+        "state": {"Name": "minecraft:deepslate_redstone_ore"}
+      }
+    ]
+  }
+}
