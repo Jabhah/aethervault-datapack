@@ -43,18 +43,7 @@
           }
         }
       },
-      "placement": [
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:replacing_filtered",
-            "offset": [0, -1, 0],
-            "predicate": {
-              "type": "minecraft:solid"
-            }
-          }
-        }
-      ]
+      "placement": []
     }
   }
 }
